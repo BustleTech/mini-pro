@@ -1,0 +1,46 @@
+.card-box {
+    border: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.home-card {
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.home-card div:nth-child(1) {
+    width: 50%;
+    height: 100%;
+    background: grey;
+}
+
+@media only screen and (max-width: 600px) {
+    .home-card {
+        display: block;
+    }
+    .home-card div:nth-child(1) {
+        width: 100%;
+        height: 50%;
+        background: grey;
+    }
+}
+
+.home-card-details {
+    width: 50%;
+    margin: 0px
+}
+
+.home-card-details .name-card {
+    text-align: center;
+    background: grey;
+    width: 96%;
+    margin: 0;
+    padding: 2%;
+}
+
+@media only screen and (max-width: 600px) {
+    .home-card-details {
+        width: 100%;
+        margin: 0px
+    }
+}

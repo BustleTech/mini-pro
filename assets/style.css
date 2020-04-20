@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.app-main .menu-items {
+    display: flex;
+    justify-content: center;
+}
+
+.app-main .menu-items ul {
+    list-style: none;
+    padding: 0px;
+}
+
+.app-main .menu-items ul li {
+    display: inline-block;
+    margin: 5px 30px;
+}
+
+.app-main .menu-card {
+    margin: 0 auto;
+    width: 45vw;
+    height: 30vw;
+}
+
+@media only screen and (max-width: 600px) {
+    .app-main .menu-items {
+        font-size: 0.7em;
+    }
+    .app-main .menu-items ul {
+        width: 100%;
+        text-align: center;
+    }
+    .app-main .menu-items ul li {
+        margin: 6px;
+    }
+    .app-main .menu-card {
+        width: 90vw;
+        height: 80vh;
+    }
+}
